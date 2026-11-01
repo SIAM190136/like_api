@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "index.py": {
+      "runtime": "python3.13",
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "index.py" }
+  ],
+  "regions": ["bom1"]
+}
